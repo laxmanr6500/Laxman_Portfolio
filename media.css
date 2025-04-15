@@ -23,9 +23,10 @@
     }
     #list-bar{
         display: block;
+        cursor: pointer;
     }
     body{
-        width: 140vw;
+        width: 100vw;
     }
     .header {
         margin-top: 0px;

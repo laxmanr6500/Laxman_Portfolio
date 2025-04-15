@@ -33,3 +33,10 @@ const awardupdate = setInterval(function(){
         award.style.color="gold"
     }
 })
+// side nav
+const listBar = document.getElementById('list-bar');
+const sidenav = document.querySelector('.sidenav');
+
+listBar.addEventListener('click', () => {
+  sidenav.classList.toggle('active');
+});
