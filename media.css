@@ -25,15 +25,18 @@
         display: block;
         cursor: pointer;
     }
-    body{
-        width: 140vw;
-    }
     .header {
         margin-top: 0px;
  
     }
 }
-
+/* media width 500px */
+@media screen and (max-width:500px) {
+    body{
+        width: 130vw;
+    }
+    
+}
 
 
 
