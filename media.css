@@ -9,35 +9,30 @@
     }
 
 }
-/* maxwidth 500px */
-@media screen and (max-width:500px) {
-    /* main-section */
-.main-section {
-    width: 150%;
+/* media width 700px */
+@media screen and (max-width:700px) {
+    .service-img{
+        width:350px;
+        
+    }
 }
-/* clients area section */
-.clients-area-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+/* media width 600px */
+@media screen and (max-width:600px) {
+    .header a {
+        display: none;
+    }
+    #list-bar{
+        display: block;
+    }
+    body{
+        width: 140vw;
+    }
+    .header {
+        margin-top: 0px;
+ 
+    }
 }
-/* about-section */
-.about-container {
-    width: 150%;
-    height:auto;
-}
-/* certification-section */
 
-.certification-container{
-    width:fit-content;
 
-}
-/* contact-section */
-.contact-container{
-    width: 150%;
-    height:auto;
-}
-}
 
 
