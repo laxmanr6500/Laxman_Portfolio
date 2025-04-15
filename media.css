@@ -1,0 +1,43 @@
+/* maxwidth 1000px */
+@media screen and (max-width:1000px) {
+    .about-content {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-form{
+        width: 100%;
+    }
+
+}
+/* maxwidth 500px */
+@media screen and (max-width:500px) {
+    /* main-section */
+.main-section {
+    width: 150%;
+}
+/* clients area section */
+.clients-area-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* about-section */
+.about-container {
+    width: 150%;
+    height:auto;
+}
+/* certification-section */
+
+.certification-container{
+    width:fit-content;
+
+}
+/* contact-section */
+.contact-container{
+    width: 150%;
+    height:auto;
+}
+}
+
+
